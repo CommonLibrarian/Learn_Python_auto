@@ -1,0 +1,17 @@
+unit test is good - isolation
+
+Unit test should only test the unit of code they target, the function or method that's being tested
+
+This ensures that any success or failure of the test is caused by the behavior of the unit in question and doesn't result from some external factor 
+like the network being down or a database server being unresponsive
+
+In other words, when testing a function or method, 
+we want to make sure that we're focusing on checking that the code in that function or method behaves correctly. 
+
+When developing test, if for any reason we do need to interact with some other software, 
+we'll normally do that in a test environment, where we'll have control over how it behaves. 
+
+So the goal of the unit test is to verify that small, isolated parts of a program are correct.
+ Given a known input, does the output of our code match our expectations?
+ 
+ 
